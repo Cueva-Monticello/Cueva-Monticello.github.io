@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cueva-Monticello.github.io/static/css/main.070a9ab8.css",
+    "main.js": "/Cueva-Monticello.github.io/static/js/main.e1a313b5.js",
+    "index.html": "/Cueva-Monticello.github.io/index.html",
+    "main.070a9ab8.css.map": "/Cueva-Monticello.github.io/static/css/main.070a9ab8.css.map",
+    "main.e1a313b5.js.map": "/Cueva-Monticello.github.io/static/js/main.e1a313b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.070a9ab8.css",
+    "static/js/main.e1a313b5.js"
+  ]
+}
