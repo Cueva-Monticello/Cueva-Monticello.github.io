@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {BrowserRouter as Router, Link, Route, Routes, useNavigate} from 'react-router-dom';
+import {HashRouter as Router, Link, Route, Routes, useNavigate} from 'react-router-dom';
 import './App.css';
 import utils from './utils';
 import Restaurant from './Restaurant';
