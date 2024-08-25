@@ -28,6 +28,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Deploys to Github Pages gh-pages branch.
 
+If pdf.js has been updated, we need to run `npm run copy-worker` before deploying.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
