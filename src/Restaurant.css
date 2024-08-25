@@ -68,3 +68,19 @@
     display: block; /* Show the arrow on hover */
 }
 
+
+.phone-number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.0em;
+}
+
+.phone-number a {
+    /*color: #007bff;*/
+    color: white;
+    text-decoration: none;
+}
+
+.phone-number a:hover {
+    text-decoration: underline;
+}

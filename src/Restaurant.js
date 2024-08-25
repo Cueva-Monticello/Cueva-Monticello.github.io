@@ -4,7 +4,7 @@ import utils from "./utils";
 import {Link} from "react-router-dom";
 import Pdf from "./Pdf";
 
-function Restaurant({name, website_link, embedded_pdf}) {
+function Restaurant({name, website_link, embedded_pdf, phone}) {
   return (
     <div>
       <div className="nav-back">
@@ -19,6 +19,11 @@ function Restaurant({name, website_link, embedded_pdf}) {
           <div className="card-content">
             <a href={website_link} target="_blank" rel="noopener noreferrer">{website_link}</a>
           </div>
+        </div>
+      )}
+      {phone && (
+        <div className="phone-number">
+          <a href={`tel:${phone}`}>{phone}</a>
         </div>
       )}
       {embedded_pdf && (
