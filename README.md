@@ -1,3 +1,23 @@
+# Cueva Monticello
+## After updating npm packages:
+
+### Make sure `pdf.worker.js` is up to date
+If the pdf.js package has been updated, you need to run `npm run copy-worker` to copy the latest version of `pdf.worker.js` into the public folder.
+
+### Updating other files
+You might have to run `npm run copy-cmaps` and/or `npm run copy-standard-fonts`
+
+## Running locally
+
+see `npm start`
+
+## Deploying to Github Pages
+
+1. Verify that the web app is working correctly on your local server
+2. Push all changes to the master branch to maintain good version control practices
+3. Run `npm run deploy`, which automatically pushes to the `gh-pages` branch (DON'T touch this branch manually)
+4. The new version of the website will automatically go live soon
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -27,8 +47,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run deploy`
 
 Deploys to Github Pages gh-pages branch.
-
-If pdf.js has been updated, we need to run `npm run copy-worker` before deploying.
 
 ### `npm test`
 
