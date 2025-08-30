@@ -10,6 +10,7 @@ import {Document, Page, pdfjs} from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.js";
 
 const options = {
+  isEvalSupported: false,
   cMapUrl: '/cmaps/',
   standardFontDataUrl: '/standard_fonts/',
 };

@@ -12,12 +12,12 @@ function App() {
       embedded_pdf: "/buena_vista.pdf",
       phone: "7115-5128",
     },
-    {
-      name: "Nativo",
-      website_link: null,
-      embedded_pdf: "/nativo.pdf",
-      phone: "6867-0698",
-    },
+    //{
+    //  name: "Nativo",
+    //  website_link: null,
+    //  embedded_pdf: "/nativo.pdf",
+    //  phone: "6867-0698",
+    //},
     {
       name: "Ibagari",
       website_link: "https://facebook.com/ibagaricoffeesv",
